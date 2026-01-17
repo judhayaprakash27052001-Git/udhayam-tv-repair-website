@@ -1043,6 +1043,7 @@
             opacity: 1;
             transform: translateY(0);
         }
+		
     </style>
 </head>
 <body>
@@ -1281,6 +1282,66 @@
                         <p>Display distortion or aspect ratio issues - Settings or board problem</p>
                     </div>
                 </div>
+				
+				<div class="issue-item animate-on-scroll">
+                    <div class="issue-icon">
+                        <i class="fas fa-grip-lines"></i>
+                    </div>
+                    <div class="issue-content">
+                        <h4>No Picture / Black Screen</h4>
+                        <p>Sound plays but display is dark</p>
+                    </div>
+                </div>
+				
+				<div class="issue-item animate-on-scroll">
+                    <div class="issue-icon">
+                        <i class="fas fa-grip-lines"></i>
+                    </div>
+                    <div class="issue-content">
+                        <h4>TV Not Powering On </h4>
+                        <p>No response to power button or remote</p>
+                    </div>
+                </div>
+				
+				<div class="issue-item animate-on-scroll">
+                    <div class="issue-icon">
+                        <i class="fas fa-grip-lines"></i>
+                    </div>
+                    <div class="issue-content">
+                        <h4>Vertical or Horizontal Lines</h4>
+                        <p>Lines running across the display panel</p>
+                    </div>
+                </div>
+				
+				<div class="issue-item animate-on-scroll">
+                    <div class="issue-icon">
+                        <i class="fas fa-grip-lines"></i>
+                    </div>
+                    <div class="issue-content">
+                        <h4>Screen Flickering </h4>
+                        <p>Unstable brightness or blinking images</p>
+                    </div>
+                </div>
+				
+				<div class="issue-item animate-on-scroll">
+                    <div class="issue-icon">
+                        <i class="fas fa-grip-lines"></i>
+                    </div>
+                    <div class="issue-content">
+                        <h4>Dim or Dark Spots</h4>
+                        <p>Backlight failure or localized LED issues</p>
+                    </div>
+                </div>
+				
+				<div class="issue-item animate-on-scroll">
+                    <div class="issue-icon">
+                        <i class="fas fa-grip-lines"></i>
+                    </div>
+                    <div class="issue-content">
+                        <h4>Automatic Shut Off</h4>
+                        <p>TV turns off randomly during use</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1366,7 +1427,147 @@
                 
                 <p style="margin-top: 15px; font-size: 0.9rem; color: var(--gray);">We'll contact you within 30 minutes to schedule your repair</p>
             </div>
+			
         </div>
+		
+<!-- Credits Footer -->
+<footer class="credits-footer">
+  <div class="credits-container">
+
+    <div class="credits-content">
+      <p class="copyright">
+        &copy; 2026 Udhayam TV Repair & Electronics Service. All Rights Reserved.
+      </p>
+
+      <p class="builder">
+        Built with ❤️ by 
+        <a href="https://judhayaprakash27052001-git.github.io/Personal-Portfolio-Blog/" 
+           target="_blank" 
+           rel="noopener"
+           class="credits-link">
+          <i class="fas fa-code"></i> Udhaya
+        </a>
+
+        <span class="divider">|</span>
+
+        Powered by 
+        <span class="deepseek-credits">
+          <i class="fas fa-robot"></i> DeepSeek AI
+        </span>
+      </p>
+    </div>
+
+    <div class="tech-stack">
+      <span class="tech-tag">HTML5</span>
+      <span class="tech-tag">CSS3</span>
+      <span class="tech-tag">JavaScript</span>
+      <span class="tech-tag">Formspree</span>
+      <span class="tech-tag">GitHub Pages</span>
+    </div>
+
+  </div>
+</footer>
+<style>
+.credits-footer {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  padding: 2.5rem 1rem;
+  border-top: 3px solid var(--accent);
+}
+
+.credits-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Text */
+.credits-content p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: rgba(255,255,255,0.85);
+}
+
+/* Builder row */
+.builder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Links */
+.credits-link {
+  color: var(--success);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: 0.3s ease;
+}
+
+.credits-link:hover {
+  color: var(--accent-light);
+  transform: translateY(-2px);
+}
+
+/* AI Credit */
+.deepseek-credits {
+  color: var(--gold);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Divider */
+.divider {
+  opacity: 0.5;
+  margin: 0 5px;
+}
+
+/* Tech Stack */
+.tech-stack {
+  margin-top: 1.2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Tags */
+.tech-tag {
+  padding: 6px 14px;
+  border-radius: 25px;
+  font-size: 0.75rem;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(8px);
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  transition: 0.3s ease;
+}
+
+.tech-tag:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: scale(1.08);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .credits-content p {
+    font-size: 0.8rem;
+  }
+
+  .tech-tag {
+    font-size: 0.65rem;
+    padding: 4px 10px;
+  }
+}
+</style>
     </section>
 
     <!-- Floating Buttons -->
