@@ -1,4 +1,4 @@
-# Udhayam TV Repair & Electronics Service Website
+# jayavel TV Repair & Electronics Service Website
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://yourusername.github.io/udhayam-tv-repair-website/)
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue)](https://pages.github.com/)
